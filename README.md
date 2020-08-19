@@ -11,6 +11,11 @@ In this case, I'm using characters from Infinity War just for fun. Names are in 
 
 The "Assassin" game uses all files except for MorePractice, which is a class reserved for practicing Generic Linked Lists.
 
-
+> Assassin.java - Data structure for name and skill level
+> Assassin.txt - Game file, contains names and skill level (Name, skill level)
+> AssassinManager - Handles the game, looks for the next potential victim and recaps the game
+> LinkedList.java - Linked List data structure with generics
+> Main.java and MorePractice.java - Testing for LinkedList data structure. Uses extends Comparable<E>.
+> Node.java - Data structure for Generic Node
 
 
