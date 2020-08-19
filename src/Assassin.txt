@@ -1,0 +1,5 @@
+Tony, 5
+Thanos, 10
+Bruce, 1
+Clint, 1
+Thor, 9
