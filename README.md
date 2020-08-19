@@ -1,5 +1,6 @@
 # LinkedListandNode
 Contains the Assassin game and LinkedList Generic practice
+Created June 2nd, 2019
 
 Created using Generic LinkedLists and Generic Nodes
 
