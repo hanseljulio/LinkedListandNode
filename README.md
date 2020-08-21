@@ -1,13 +1,13 @@
 # LinkedListandNode
-Assassin game and LinkedList Generic practice
-Created June 2nd, 2019
+* Assassin game and LinkedList Generic practice
+* Created June 2nd, 2019
 
 -------------------------------------------------------------------------------
 
 ## Overview
-This is a program that contains the "Assassin" game and practice for Generic Linkedlists.
-
-"Assassin" is basically a battle royale-like game where players will kill off each other until the player with the highest point wins.
+* This is a program that contains the "Assassin" game and practice for Generic Linkedlists.
+* "Assassin" is basically a battle royale-like game where players will kill off each other until the player with the highest point wins.
+* Insert name and skill level in the "Assassin.txt" file and run the program.
 
 -------------------------------------------------------------------------------
 
@@ -19,9 +19,9 @@ This is a program that contains the "Assassin" game and practice for Generic Lin
    * This constructor will create the player's name and skill level that is set to the given values
  * Functions:
    * getName()
-     * This function will return the name of the player
+     * This function will return the name of the player as a string
    * getSkillLevel()
-     * This function will return the skill level of the player
+     * This function will return the skill level of the player as an integer
    * toString()
      * This function will return the name and skill level of the player as a string
      
@@ -32,60 +32,60 @@ This is a program that contains the "Assassin" game and practice for Generic Lin
    * This constructor takes in a text file and finds the name and skill of the player from the file
  * Functions:
    * getNextVictim()
-     * This function will return the next "victim" that the player will target
+     * This function will return the next "victim" that the player will target as a Node < Assassin > data type
    * play()
      * This function will handle the flow of the game, from its weapon, target, and removal of players
    * deathRecap()
-     * This function will return the recap of the game
+     * This function will return the recap of the game as a string
 
 
 3. LinkedList.java
  * This class contains the linked list data structure and is built with the E type generic
  * Functions:
-   * add(Node<E> node)
+   * add(Node< E > node)
      * This function will add a node at the end the linked list
-   * add(Node<E> node, int index)
+   * add(Node< E > node, int index)
      * This function will add a node at the given index of the linked list
    * remove(E value)
      * This function will remove the value given from the linked list
-   * exists(Node<E> node)
+   * exists(Node< E > node)
      * This function will check whether the given node exists within the linked list
    * equals(Object o)
      * This function will check for equality between the linked lists
    * toString()
      * This function will return the result as a string
    * size()
-     * This function will return the size of the linked list
+     * This function will return the size of the linked list as an integer
    * get(int index)
-     * This function return the data at the given index
+     * This function return the data at the given index as a Node < E > data type
    * getFirst()
-     * This function will return the first data
-   * getParent(Node<E> node)
-     * This function will return the parent of the given node
+     * This function will return the first data as a Node < E > data type
+   * getParent(Node< E > node)
+     * This function will return the parent of the given node as a Node < E > data type
    * truncateList(E value)
      * This function will delete the given value from the linked list
    * getLast()
-     * This function will return the last data in the linked list
+     * This function will return the last data in the linked list as a Node < E > data type
 
 
 4. Main.java
  * Contains the main file for the linked list practice
  * Functions:
-   * nodeEqualTest(Node<?> node, Node<?> node2), equalsTest(LinkedList<E> list, LinkedList<E> node)
+   * nodeEqualTest(Node< ? > node, Node< ? > node2), equalsTest(LinkedList< E > list, LinkedList< E > node)
      * These function tests the functionality of the equals method
-   * addOne(LinkedList<E> node), addTwo(LinkedList<E> node)
+   * addOne(LinkedList< E > node), addTwo(LinkedList< E > node)
      * These function tests the functionality of the add method
-   * indexTest(LinkedList<E> node, int value, int index)
+   * indexTest(LinkedList< E > node, int value, int index)
      * These function tests the functionality of the add method to the given index
-   * removeElement(LinkedList<E> node, E value)
+   * removeElement(LinkedList< E > node, E value)
      * This function tests the functionality of the remove function
-   * existTest(LinkedList<E> node, E value)
+   * existTest(LinkedList< E > node, E value)
      * This function tests the functionality of the exist function
  
  
 5. MorePractice.java
  * As the title implies, this class contains another main file for the linked list practice
- * Function: mergeLists(LinkedList<E> list1, LinkedList<E> list2)
+ * Function: mergeLists(LinkedList< E > list1, LinkedList< E > list2)
    * This function merges two given linked lists into a single linked list
 
 
@@ -94,12 +94,12 @@ This is a program that contains the "Assassin" game and practice for Generic Lin
  * Constructors:
    * Node(E data)
      * This constructor will create a new node with the given data
-   * Node (E data, Node<E> next)
+   * Node (E data, Node< E > next)
      * This constructor will create a new node with the given data for the given node
  * Functions:
    * getNext()
      * This function will return the next node in the linked list
-   * setNext(Node<E> next)
+   * setNext(Node< E > next)
      * This function will set the given node to be next node in the linked list
    * equals(Object o)
      * This function will check for equality between the nodes
